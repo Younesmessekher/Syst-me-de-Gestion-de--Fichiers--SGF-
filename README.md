@@ -43,6 +43,8 @@ Le simulateur utilise plusieurs structures pour gérer les fichiers et les enreg
 14. **Quitter** : Fermez le simulateur.
 ## Tests
 Les tests doivent être effectués pour assurer que toutes les fonctionnalités fonctionnent correctement et que toutes les cas d'erreur sont gérés. Des captures d’écran peuvent être prises pendant l’utilisation du simulateur pour illustrer son fonctionnement.
+## Screenshot
+![Screenshot of the app](Screenshot/Screenshot 2025-01-01 123239.png)
 ## Auteurs
 - [messekher younes,Djebbar Seddik Adel,BALAMANE Mohamed Hani,Boubekeur Racim,Hamdaoui Yacine,Sendid Mohamed el hadi,Alwazir mohamed]
 
