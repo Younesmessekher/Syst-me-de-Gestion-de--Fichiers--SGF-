@@ -38,7 +38,7 @@ typedef struct {
     int nbr_enregi;     // Nombre d'enregistrements dans ce bloc
 } bloc;
 
-// Structure metadata modifiee
+// Structure metadata 
 typedef struct {
     char filename[20];
     int nbr_bloc;//
@@ -158,11 +158,11 @@ void creer_fichier(MS *memoire) {
 
     // Choix du mode global avec validation
     do {
-        printf("Choisissez le mode global (1 - Contigu, 0 - Chaene) : ");
+        printf("Choisissez le mode global (1 - Contigué, 0 - Chaineé) : ");
         if (scanf("%d", &meta->mode_global) == 1 && (meta->mode_global == 0 || meta->mode_global == 1)) {
             break;
         }
-        printf("Erreur : Veuillez entrer 1 pour Contigu ou 0 pour Chaene.\n");
+        printf("Erreur : Veuillez entrer 1 pour Contigué ou 0 pour Chaineé.\n");
         while (getchar() != '\n'); // Vider le buffer pour eviter les erreurs
     } while (true);
 
@@ -964,8 +964,8 @@ void afficher_menu() {
     printf("       Simulateur SGF - Menu\n");
     printf("======================================\n");
     printf("1. Initialiser la memoire secondaire\n");
-    printf("2. Creer un fichier\n");
-    printf("3. Afficher leetat de la memoire secondaire\n");
+    printf("2. Creér un fichier\n");
+    printf("3. Afficher létat de la memoire secondaire\n");
     printf("4. Afficher les metadonnees des fichiers\n");
     printf("5. Rechercher un enregistrement par ID\n");
     printf("6. Inserer un nouvel enregistrement\n");
